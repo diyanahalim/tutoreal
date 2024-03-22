@@ -1,38 +1,44 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Aiman Ra",
+    "type": "Full Time",
+    "image": "./hohohehehuhu.jpg",
+    "location": "Kajang",
+    "education": "Bachelor of Marketing"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Nina Jobling",
+    "type": "Part Time",
+    "image": "./agoblock.jpg",
+    "location": "Shah Alam",
+    "education": "Bachelor of Law"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Amir Ahnap",
+    "type": "Full Time",
+    "image": "./r2.jpg",
+    "location": "Wangsa Maju",
+    "education": "Bachelor of Mass Comm"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Diyan Trisha",
+    "type": "Part Time",
+    "image": "./7908.jpg",
+    "location": "Ipoh",
+    "education": "Bachelor of IT"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Syatilla Melvis",
+    "type": "Full Time",
+    "image": "./nyenye_processed.jpg",
+    "location": "Kuala Lumpur",
+    "education": "Bachelor of Sc (Chemistry)"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Rama Rao",
+    "type": "Full Time",
+    "image": "./gugugaga_processed_processed.jpg",
+    "location": "Petaling Jaya",
+    "education": "Bachelor of Mathematics"
   }
 ]

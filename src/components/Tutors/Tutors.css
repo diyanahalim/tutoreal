@@ -1,0 +1,121 @@
+.r-container{
+    overflow: hidden;
+    position: relative;
+}
+
+.r-head{
+    margin-bottom: 2rem;
+}
+
+.r-card{
+    padding: 1rem;
+    border-radius: 10px;
+    margin: auto;
+    transition: all 300ms ease-in;
+    max-width: 17rem;        
+}
+
+.card-image-container{
+    position:relative;
+    width:100%;
+    padding-bottom:100%;
+    border-radius:50%;
+    overflow:hidden;
+    align-self: center;
+}
+
+.card-image-container>img{
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+} 
+
+/* align icon and text */
+.info-container{
+    display: flex;
+    align-items: center; 
+}   
+
+/* tutor's type and location */
+.r-card>:nth-child(2){
+    font-size:1rem;
+    padding: 0.6rem 0;
+    display:inline-block;
+}   
+
+/* tutor's name */
+.r-card>:nth-child(3){
+    font-size: 1.5rem;
+}   
+
+/* tutor's education bg */
+.r-card>:nth-child(4){
+    font-size: 0.9rem;
+    padding: 0.6rem 0;
+    color: rgb(140 139 139);
+}
+
+.graduate-cap-icon{
+    font-size: 1.1rem;
+    margin-right: 0.3rem;
+    color: rgb(140 139 139);
+}
+
+.r-card:hover{
+    scale: 1.025;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255,255,255,0)0%, 
+                                        rgba(136,160,255,0.46)217.91%);
+    box-shadow: 0px 72px 49px -51px rgba(160,160,255,0.21);
+}
+
+.swiper-horizontal{
+    overflow: visible;
+}
+
+.r-buttons{
+    position: absolute;
+    gap: 1rem;
+    top: -4rem;
+    right: 0;
+}
+
+.r-buttons button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    color: #66ff00 ;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.r-buttons>:nth-child(1){
+    background-color: #ff6868;
+}
+
+.r-buttons>:nth-child(2){
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 768px){
+    .r-head{
+        align-items: center;
+    }
+    .r-buttons{
+        position: initial;
+    }
+    .r-card>:nth-child(3){
+        font-size: 1rem;
+    }
+    .r-card>:nth-child(2){
+        font-size: 0.8rem;
+    }
+    .r-card>:nth-child(4){
+        font-size: 0.7rem;
+    }
+    .graduate-cap-icon{
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,26 @@
+.inner-container{
+    gap: 1.5rem;
+    background-image: var(--yellow-gradient);
+    padding: 2rem;
+    border-radius: 10px;
+    align-items: center; 
+
+}
+
+.inner-container .primaryText{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.inner-container .secondaryText{
+    color: white;
+}
+
+.inner-container .button{
+    background-image: var(--green-gradient);
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
