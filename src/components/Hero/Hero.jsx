@@ -63,7 +63,7 @@ const Hero = () => {
                 </div>
             </div>
 {/* right side */}
-            <div className="flexCenter">
+            <div className='flexCenter'>
                 <motion.div 
                 initial={{x: "7rem", opacity: 0}}
                 animate={{x: 0, opacity: 1}}

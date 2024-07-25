@@ -78,6 +78,9 @@
 }
 
 @media (max-width: 640px){
+    .hero-wrapper {
+        padding-bottom: unset;
+    }
     .hero-container{
         margin-top: 2rem;
     }
@@ -98,4 +101,9 @@
     .stat>:nth-child(2){
         font-size: 0.8rem;
     }
+    .lottie{
+        width: 20rem;
+        height: 20rem;
+    }
+    
 }

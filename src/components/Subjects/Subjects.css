@@ -1,14 +1,7 @@
-.subjects{
-    justify-content: flex-start;
-    gap: 1rem;    
-    /* background-color: rgb(98, 0, 255); */
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .subjects>img{
     width: 9rem;
-    
 }
 
 .r-container>div{
@@ -27,8 +20,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
 }
+
 
 .subjectsIcon{
     width: 100%;
@@ -107,7 +100,7 @@
 .subject-main{
   display: flex;
   flex-wrap: wrap;
-  /* background-color: aqua; */
+  justify-content: center;
 }
 
 /* background: linear-gradient(180deg, rgba(255,255,255,0)0%, 
